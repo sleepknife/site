@@ -42,12 +42,18 @@ const SocialIcons = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 2.5, duration: 0.8 }}
     >
-      <SocialIcon />
+      <SocialIcon
+        icon={<img src="https://i.imgur.com/M0Cbph1.png" alt="Icon 1" className="w-6 h-6" />}
+        href="https://twitter.com"
+      />
       <SocialIcon
         icon={<img src="https://i.imgur.com/M0Cbph1.png" alt="Twitter" className="w-6 h-6" />}
         href="https://twitter.com"
       />
-      <SocialIcon />
+      <SocialIcon
+        icon={<img src="https://i.imgur.com/M0Cbph1.png" alt="Icon 3" className="w-6 h-6" />}
+        href="https://twitter.com"
+      />
     </motion.div>
   );
 };
